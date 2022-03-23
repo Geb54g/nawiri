@@ -6,11 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>video</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   </head>
   <body>
     <header>
-      <nav></nav>
-    </header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
+          <div class="container">
+              <a href="therapy.html" class="navbar-brand">CONSIDERING THERAPY</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navmenu">
+                  <ul class="navbar-nav ms-auto">
+                      <li class=" nav-item">
+                          <a href="sound.html" class="nav-link">SOUNDS</a>
+                      </li>
+                      <li class=" nav-item">
+                          <a href="takeaquiz.html" class="nav-link">TAKE A QUIZ</a>
+                      </li>
+                      <li class=" nav-item">
+                          <a href="articles.html" class="nav-link">ARTICLES</a>
+                      </li>
+                      <li class=" nav-item">
+                          <a href="feedback.html" class="nav-link">FEEDBACK</a>
+                      </li>
+                      <li class=" nav-item">
+                          <a href="#contact" class="nav-link">CONTACT US</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+    
     <main>
       <section class="one">
         <h3>Nawiri <span>Tube</span></h3>
@@ -116,5 +146,15 @@
           </div>
         </div>
       </div>
+      <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2022 Nawiri Web<em>app</em></p>
+                <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                    <i class="bi bi-arrow-up-circle h1"></i></a>
+           </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+      </script>
   </body>
 </html>
