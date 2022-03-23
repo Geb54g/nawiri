@@ -25,3 +25,51 @@ address{
       color: white;
       size: 100px;
   }
+  /* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    size: 100px;
+}
+  /* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    size: 100px;
+}
+
+  /*form styling*/
+  #mc_embed_signup{background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif;  
+    width:600px;}
+    form{
+        border: 1px solid black;
+       
+        text-align: center;
+        font-size: 25px;
+    }
+    .mc-field-group{
+        padding: 50px;
+ }
+ .mc-field-group #mce-MMERGE7{
+     padding: 40px;
+ }
+ .mc-field-group #mce-FNAME{
+     padding: 20px;
+ }
+ .mc-field-group #mce-EMAIL{
+     padding: 20PX;
+ }
+ #sub{
+     font-weight: bold;
+ }
+ .button{
+     border-radius: 10px;
+     padding: 20px;
+     background-color: aliceblue;
+ }
+ footer{
+     position: absolute;
+     margin-top: 80px;
+ }
