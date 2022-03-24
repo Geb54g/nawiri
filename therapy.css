@@ -12,6 +12,12 @@ body{
 
 img{
     clip-path: circle();
+  
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
 
 
