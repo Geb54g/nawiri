@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f3e9;
+}
+h3 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+span {
+  color: red;
+}
+.video {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  margin: 0.5rem;
+}
+h1 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: rgb(53, 83, 4);
+  opacity: 0.5;
+}
+
+h4 {
+  text-align: center;
+  border-bottom: solid rgba(255, 0, 0, 0.152);
+  opacity: 0.8;
+}
+.aud {
+  background-color: blue;
+}
+.track {
+  display: flex;
+  justify-content: center;
+}
+h5 {
+  text-align: center;
+  box-shadow: 10px 10px 10px;
+}
+p {
+  text-align: center;
+}
+.frequency {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 1rem;
+}
+.delta:hover {
+  background-color: aqua;
+  box-shadow: 5px 5px 5px;
+}
+.beta:hover {
+  background-color: aqua;
+  box-shadow: 5px 5px 5px;
+}
+.theta:hover {
+  background-color: aqua;
+  box-shadow: 5px 5px 5px;
+}
+.tack2:hover {
+  background-color: aquamarine;
+  box-shadow: 10px 10px 10px;
+}
