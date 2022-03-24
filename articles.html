@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="articles.css">
+    <title>Articles</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 fixed-top">
+            <div class="container">
+                <a href="therapy.html" class="navbar-brand">CONSIDERING THERAPY</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class=" nav-item">
+                            <a href="sound.html" class="nav-link">SOUNDS</a>
+                        </li>
+                        <li class=" nav-item">
+                            <a href="takeaquiz.html" class="nav-link">TAKE A QUIZ</a>
+                        </li>
+                        <li class=" nav-item">
+                            <a href="articles.html" class="nav-link">ARTICLES</a>
+                        </li>
+                        <li class=" nav-item">
+                            <a href="feedback.html" class="nav-link">FEEDBACK</a>
+                        </li>
+                        <li class=" nav-item">
+                            <a href="contact.html" class="nav-link">CONTACT US</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- show-case -->
+    <section class="bg-transparent text-dark p-5 text-center" text-sm-start>
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>What is <br> <span class="text-secondary">mental health? </span></h1>
+                    <p class="lead my-4">
+                        Mental health refers to cognitive, behavioral, and emotional well-being.
+                        It is all about how people think, feel, and behave.
+                        People sometimes use the term “mental health” to mean the absence of a mental disorder.
+                    </p>
+                    <div class="health g-6">
+                        <button class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#signs">EARLY
+                            SIGNS</button>
+                        <button class="btn btn-dark btn-lg" data-bs-toggle="modal" data-bs-target="#disorders">COMMON
+                            DISORDERS</button>
+                        <button class="btn btn-dark btn-lg" data-bs-toggle="modal"
+                            data-bs-target="#treatment">TREATMENT</button>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="signs" tabindex="-1" aria-labelledby="signsLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="signsLabel">Early Signs</h5>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="lead">
+                                        <li>Withdrawing from friends, family, and colleagues</li>
+                                        <li>Sleeping too much or too little</li>
+                                        <li>Having consistently low energy</li>
+                                        <li>Using mood-altering substances, including alcohol and nicotine, more
+                                            frequently</li>
+                                        <li>Being unable to complete daily tasks, such as getting to work or cooking a
+                                            meal</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="disorders" tabindex="-1" aria-labelledby="disordersLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="disordersLabel">Common Disorders</h5>
+                                    
+                                </div>
+                                <div class="modal-body">
+                                    <p class="lead">The most common types of mental illness are as follows:</p>
+                                    <ul class="lead">
+                                        <li>Mood disorders</li>
+                                        <li>Schizophrenia disorders</li>
+                                        <li>Anxiety disorders</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal fade" id="treatment" tabindex="-1" aria-labelledby="treatmentLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="treatmentLabel">Treatment</h5>
+                                    <button type="button" class="btn-close" data-dismiss="modal">&times;</button>
+                                   
+                                </div>
+                                <div class="modal-body">
+                                    <p class="lead">There are various methods for managing mental health problems.
+                                        Treatment is highly individual,
+                                        and what works for one person may not work for another.
+                                        Some strategies or treatments are more successful in combination with others.
+                                        A person living with a chronic mental disorder may choose different options at
+                                        various stages
+                                        in their life. The individual needs to work closely with a doctor who can help
+                                        them identify their needs
+                                        and provide them with suitable treatment.
+                                        Treatments can include: Considering Therapy sessions , self-help and medication
+                                    </p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="Images/Articles.jpg" alt="#">
+            </div>
+        </div>
+    </section>
+
+    <!-- blog cards -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images/Teen.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Is my Teen normal?</h5>
+                            <p class="card-text">Social media isn't all to blame, but right now teens are really
+                                struggling
+                                with mental health issues. They are uniquely affected by societal pressure and factors
+                                such as <a
+                                    href="https://www.pewresearch.org/internet/2018/09/27/a-majority-of-teens-have-experienced-some-form-of-cyberbullying/">social
+                                    media and bullying</a>. Their parents
+                                are
+                                trying
+                                to help.Nawiri's<a
+                                    href="https://www.healthbenefitstimes.com/hidden-signs-of-teen-anxiety/"> hidden
+                                    signs of Teen
+                                    Anxiety</a>offers insight to help them connect
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images/taboo.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Shedding Light on Taboo Topics</h5>
+                            <p class="card-text">Over the past years, we've blown the lid off topics not often discussed
+                                in polite society. Though not officially designated as mental health disorders , It can
+                                be a
+                                cause of concern when watching porn and/or having sex interferes with your daily
+                                activities or
+                                routine.Nawiri's <a
+                                    href="https://www.sexaddictionaustralia.com.au/porn-addiction-test/">Porn's
+                                    Addiction</a>
+                                and <a href="https://www.sexaddictionaustralia.com.au/sex-addiction-test/">Sex
+                                    addiction</a> assessments can be a tool for
+                                detecting unhealthy behavior.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="Images/stress.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">The Impact of Stress</h5>
+                            <p class="card-text"><a
+                                    href="https://emedicine.medscape.com/article/2013085-overview">Suicide</a>
+                                is still an issue especially for adults <a
+                                    href="https://www.healthline.com/health/mental-health/depression-and-anxiety">Anxiety
+                                    and
+                                    depression</a>
+                                affect all parts of our lives:<a
+                                    href="https://www.apa.org/news/press/releases/stress/2013/sleep">Sleep,</a>
+                                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3160620">work</a> and home
+                                life
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Acordion -->
+    <section id="questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                Frequently Asked Questions
+            </h2>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="questions">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            What do I do if the support doesn't help?
+
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="questions">
+                        <div class="accordion-body">
+                            It can be difficult to find the things that will help you,
+                            as different things help different people. It's important to be open to a range of
+                            approaches
+                            and to be committed to finding the right help and to continue to be hopeful, even when some
+                            things don't work out.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            What do I do if I'm worried about my mental health?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            The most important thing is to talk to someone you trust. This might be a friend, colleague,
+                            family member, or GP.
+                            In addition to talking to someone, it may be useful to find out more information about what
+                            you are experiencing.
+                            These things may help to get some perspective on what you are experiencing, and be the start
+                            of getting help.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            How do I deal with someone telling me what to do?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            Some people may advise you on good evidence of what works with the best of intentions,
+                            but it's important to find out what works best for you.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        What should I do if I'm worried about a friend or relative?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        This may depend on your relationship with them.
+                        Gently encouraging someone to seek appropriate support would be helpful to start with.
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2022 Nawiri Web<em>app</em></p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i></a>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
