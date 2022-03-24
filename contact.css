@@ -3,15 +3,26 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color:#f8f3e9;
+    
+}
+body{
+    background-color: #f8f3e9;
+}
+
+form {
+    border-style: none;
+    margin-top: 10px;
+    
 }
 address{
-    font-size: 60px;
+    font-size: 50px;
+    margin-top: 50px;
 }
 .touch{
     font-size: 65px;
     font-weight: bolder;
-    margin-top: 30px;
+    margin-top: 50px;
+   
 }
 .fa {
     padding: 20px;
